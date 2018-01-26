@@ -13,10 +13,10 @@ export default class VickiComponent extends Component {
                     <p>New York - 1991</p>
                     <p>Michigan - 1997</p>
                     <h2>Areas of Practice:</h2>
-                    <li>Estates and Planning</li>
+                    <li>Estate Planning</li>
                     <li>Probate</li>
                     <li>Wills and Trusts</li>
-                    <li>Conservatorships/Guardianships</li>
+                    <li>Conservatorships and Guardianships</li>
                     <h2>Noteworthy:</h2>
                     <li>Appointed as Guardian ad litem in various legal proceedings</li>
                     <li>Former Associate at New York Law Firm, Loeb & Loeb</li>

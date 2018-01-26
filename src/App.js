@@ -57,7 +57,7 @@ class App extends Component {
           </div>
         </Tabs>
         <div style={{color: 'white', textAlign:'center'}}>
-          <p>8283 N. Telegraph, Dearborn Heights, MI 48127</p>
+          <p>8283 N. Telegraph Road, Dearborn Heights, MI 48127</p>
           <p>Call Now: (313) 278-7030</p>
         </div>
       </div>

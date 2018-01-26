@@ -50,7 +50,7 @@ export default class AboutCarousel extends Component {
             <img src="./images/about/probate.png" />
             <Carousel.Caption>
               <h3>Probate & Estate Planning</h3>
-              <h3>Wills & Powers of Atterny</h3>
+              <h3>Wills & Powers of Attorney</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -63,7 +63,7 @@ export default class AboutCarousel extends Component {
           <Carousel.Item>
             <img src="./images/about/guardian.png" />
               <Carousel.Caption>
-                <h3>Conservitorships</h3>
+                <h3>Conservatorships</h3>
                 <h3>Guardianships</h3>
               </Carousel.Caption>
           </Carousel.Item>
