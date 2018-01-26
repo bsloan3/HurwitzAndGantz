@@ -6,7 +6,7 @@ export default class ContactComponent extends Component {
     return (
       <div>
         <div className="contacthead">
-          <h1>Contact Hurwitz & Gantz, PC</h1>
+          <h1>Contact Hurwitz & Gantz, P.C.</h1>
           <h3>Please include:</h3>
           <ul>
             <li><h4>Your name</h4></li>

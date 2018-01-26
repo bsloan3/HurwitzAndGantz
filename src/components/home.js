@@ -9,7 +9,7 @@ export default class HomeComponent extends Component {
     return (
       <div>
         <Jumbotron className="home">
-          <h1>Hurwitz & Gantz, PC</h1>
+          <h1>Hurwitz & Gantz, P.C.</h1>
           <h3>A full service law firm rated "AV" by Martindale Hubbell Law Directory. We represent individuals and small business in a variety of legal matters, including:</h3>
         </Jumbotron>
 

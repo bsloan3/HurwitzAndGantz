@@ -5,7 +5,7 @@ export default class VickiComponent extends Component {
     return (
         <div className="staffinfo">
             <div>
-                <h1>Victoria H. Sloan</h1>
+                <h1>Victoria Sloan</h1>
                 <h2>Education:</h2>
                     <p>UNIVERSITY OF MICHIGAN - Bachelor of Arts, 1987</p>
                     <p>NEW YORK UNIVERSITY SCHOOL OF LAW - Juris Doctor, 1990</p>

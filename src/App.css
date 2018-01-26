@@ -1,4 +1,8 @@
 /*full app*/
+.App {
+
+}
+
 body {
   font-family: Calibri, sans-serif;
   background: url(/./images/carousel/6.jpg) no-repeat center center fixed;
@@ -6,10 +10,11 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100VH;
 }
 
 .bodycontent {
-  margin-top: 7%;
+  padding-top: 7%;
   bottom: 0;
   height: 90VH;
   overflow: scroll;
@@ -231,6 +236,11 @@ background-color: black;
   width: 60%;
   float: right;
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.teampage {
+  height: 80VH;
+  overflow: scroll;
 }
 
 /*about page*/

@@ -32,7 +32,7 @@ class App extends Component {
             <Tab>Contact</Tab>
           </TabList>
           <div className="firmheader">
-            Hurwitz & Gantz, PC
+            Hurwitz & Gantz, P.C.
           </div>
           </nav>
 
@@ -46,9 +46,13 @@ class App extends Component {
             </TabPanel>
 
             <TabPanel>
-              <h1 style={{color: 'white', marginLeft:'3%'}}>The Team</h1>
-              <h3 style={{color: 'white', marginLeft:'3%'}}>Click on any of our lawyers to find out more!</h3>
-              < TeamComponent />
+              <div style={{position: 'static', display: 'block'}}>
+                <h1 style={{color: 'white', marginLeft:'3%'}}>The Team</h1>
+                <h3 style={{color: 'white', marginLeft:'3%'}}>Click on any of our lawyers to find out more!</h3>
+              </div>
+              <div className="teampage">
+                < TeamComponent />
+              </div>
             </TabPanel>
 
             <TabPanel>
@@ -56,7 +60,7 @@ class App extends Component {
             </TabPanel>
           </div>
         </Tabs>
-        <div style={{color: 'white', textAlign:'center'}}>
+        <div style={{color: 'white', textAlign:'center', paddingTop: '2%'}}>
           <p>8283 N. Telegraph Road, Dearborn Heights, MI 48127</p>
           <p>Call Now: (313) 278-7030</p>
         </div>
