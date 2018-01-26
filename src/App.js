@@ -60,9 +60,9 @@ class App extends Component {
             </TabPanel>
           </div>
         </Tabs>
-        <div style={{color: 'white', textAlign:'center', paddingTop: '2%'}}>
-          <p>8283 N. Telegraph Road, Dearborn Heights, MI 48127</p>
-          <p>Call Now: (313) 278-7030</p>
+        <div style={{color: 'white', textAlign:'center', bottom:'0'}}>
+          <p style={{margin: '0'}}>8283 N. Telegraph Road, Dearborn Heights, MI 48127</p>
+          <p style={{margin: '0'}}>Call Now: (313) 278-7030</p>
         </div>
       </div>
     );

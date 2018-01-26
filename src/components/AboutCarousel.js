@@ -31,6 +31,7 @@ export default class AboutCarousel extends Component {
         <Carousel
           pauseOnHover={true}
           slide={true}
+          indicators={false}
         >
           <Carousel.Item>
             <img src="./images/about/legalmal.png" />

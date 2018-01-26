@@ -16,8 +16,8 @@ export default class MarkComponent extends Component {
                 <li>HENRY FORD COMMUNITY COLLEGE, Dearborn, Michigan - 1977-1997</li>
                 <h2>Investigator, Arbitrator:</h2>
                 <li>MICHIGAN ATTORNEY GRIEVANCE COMMISSION</li>
-                <li>AMERICAN ARBITRATION ASSOCIATION - PANEL OF ARBITRATORS</li>
-                <h3>Rated "Superb 10 out of 10" by Avvo.com, and "AV" (Highest Rating) by Martindale Hubbell Law Directory; "Super Lawyers Magazine"; 2011 - 2016 List of Top Lawyers in Michigan; "2012 New York Times" List of Top Attorneys in Michigan; "Hour Detroit" 2011 List of Wealth Managers Who Scored Highest in Overall Satisfaction; "dbusiness" Magazine 2009 List of "Top Lawyers"</h3>
+                <li>AMERICAN ARBITRATION ASSOCIATION - PANEL OF ARBITRATORS</li><br/>
+                <p>Rated "Superb 10 out of 10" by Avvo.com, and "AV" (Highest Rating) by Martindale Hubbell Law Directory; "Super Lawyers Magazine"; 2011 - 2016 List of Top Lawyers in Michigan; "2012 New York Times" List of Top Attorneys in Michigan; "Hour Detroit" 2011 List of Wealth Managers Who Scored Highest in Overall Satisfaction; "dbusiness" Magazine 2009 List of "Top Lawyers"</p>
             </div>
             <div className="contactform">
                 <h4>Contact Mark</h4>
