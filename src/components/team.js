@@ -3,6 +3,7 @@ import { Popover, ButtonToolbar, OverlayTrigger, Button } from 'react-bootstrap'
 import MilesComponent from './miles';
 import VickiComponent from './vicki';
 import MarkComponent from './mark';
+import MobileTeamComponent from './mobileteam.js';
 
 export default class TeamComponent extends Component {
     constructor() {
@@ -18,6 +19,9 @@ export default class TeamComponent extends Component {
   render() {
     return (
     <div>
+      <div className="mobileteam">
+        <MobileTeamComponent/>
+      </div>
       <div className="fullstaff">
         <div style={{width: '30%', display:'inline-block'}} onClick={() => this.milesOnClick()}>
             <div className="staffimg">

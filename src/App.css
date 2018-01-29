@@ -61,7 +61,7 @@ nav {
 }
 
 .react-tabs #react-tabs-6 {
-  text-align: right !important;
+  text-align: right;
 }
 
 .react-tabs__tab {
@@ -257,5 +257,71 @@ background-color: black;
   color: white;
   padding: 3%;
   width: 60%;
+}
+
+.mobileteam {
+  display: none;
+}
+
+/*mobile*/
+@media only screen and (max-width: 585px) {
+    .bodycontent {
+      margin-top: 160px;
+      padding-top: 0px !important;
+      height: 90VH;
+      overflow: scroll;
+    }
+
+    .react-tabs__tab {
+      display: block !important;
+      text-align: left !important;
+    }
+
+    .mobileteam {
+      display: block;
+    }
+
+    .fullstaff {
+      display: none;
+    }
+
+    .staffinfo {
+      color: white;
+      margin: 3%;
+      padding: 2%;
+      width: 80%;
+      float: left;
+      height: auto;
+      overflow: none;
+    }
+
+    .teamheader {
+      display: none;
+    }
+
+    .carousel-holder {
+      width: 90%;
+      }
+
+    .home {
+      width: 80%;
+      padding: 3%;
+    }
+
+    .aboutpage {
+      width: 80%;
+    }
+
+    .contacthead {
+      width: 100%;
+    }
+
+    .formemail {
+      width: 50%;
+    }
+
+    .formmessage {
+      width: 80%;
+    }
 }
 

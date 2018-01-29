@@ -48,7 +48,7 @@ class App extends Component {
             <TabPanel>
               <div style={{position: 'static', display: 'block'}}>
                 <h1 style={{color: 'white', marginLeft:'3%'}}>The Team</h1>
-                <h3 style={{color: 'white', marginLeft:'3%'}}>Click on any of our lawyers to find out more!</h3>
+                <h3 className="teamheader" style={{color: 'white', marginLeft:'3%'}}>Click on any of our lawyers to find out more!</h3>
               </div>
               <div className="teampage">
                 < TeamComponent />
