@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import AboutCarousel from './AboutCarousel';
 import Iframe from 'react-iframe'
 
 export default class AboutComponent extends Component {
