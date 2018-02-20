@@ -23,22 +23,20 @@ export default class TeamComponent extends Component {
         <MobileTeamComponent/>
       </div>
       <div className="fullstaff">
-        <div style={{width: '30%', display:'inline-block'}} onClick={() => this.milesOnClick()}>
+        <div style={{width: '30%', display:'inline-block'}} onClick={() => this.markOnClick()}>
             <div className="staffimg">
-                <img src="./images/miles.jpg"></img>
-                <div class="middle">
-                    <div class="text">Miles Hurwitz</div>
-                </div>
+                <img src="./images/mark.jpg"></img>
+                <div class="text">Mark Gantz</div>
             </div>
         </div>
         {
-          this.state.milesVisible
-            ? <MilesComponent />
+          this.state.markVisible
+            ? <MarkComponent />
             : null
         }
         {
-          this.state.markVisible
-            ? <MarkComponent />
+          this.state.milesVisible
+            ? <MilesComponent />
             : null
         }
         {
@@ -49,12 +47,10 @@ export default class TeamComponent extends Component {
       </div>
 
       <div className="fullstaff">
-        <div style={{width: '30%', display:'inline-block'}} onClick={() => this.markOnClick()}>
+        <div style={{width: '30%', display:'inline-block'}} onClick={() => this.milesOnClick()}>
             <div className="staffimg">
-                <img src="./images/mark.jpg"></img>
-                <div class="middle">
-                    <div class="text">Mark Gantz</div>
-                </div>
+                <img src="./images/miles.jpg"></img>
+                <div class="text">Miles Hurwitz</div>
             </div>
         </div>
       </div>
@@ -63,9 +59,7 @@ export default class TeamComponent extends Component {
         <div style={{width: '30%', display:'inline-block'}} onClick={() => this.vickiOnClick()}>
             <div className="staffimg">
                 <img src="./images/vicki.jpg"></img>
-                <div class="middle">
-                    <div class="text">Victoria Sloan</div>
-                </div>
+                <div class="text">Victoria Sloan</div>
             </div>
         </div>
       </div>
