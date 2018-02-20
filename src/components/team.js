@@ -23,20 +23,20 @@ export default class TeamComponent extends Component {
         <MobileTeamComponent/>
       </div>
       <div className="fullstaff">
-        <div style={{width: '30%', display:'inline-block'}} onClick={() => this.markOnClick()}>
+        <div style={{width: '30%', display:'inline-block'}} onClick={() => this.milesOnClick()}>
             <div className="staffimg">
-                <img src="./images/mark.jpg"></img>
-                <div class="text">Mark Gantz</div>
+                <img src="./images/miles.jpg"></img>
+                <div class="text">Miles Hurwitz</div>
             </div>
         </div>
         {
-          this.state.markVisible
-            ? <MarkComponent />
+          this.state.milesVisible
+            ? <MilesComponent />
             : null
         }
         {
-          this.state.milesVisible
-            ? <MilesComponent />
+          this.state.markVisible
+            ? <MarkComponent />
             : null
         }
         {
@@ -47,10 +47,10 @@ export default class TeamComponent extends Component {
       </div>
 
       <div className="fullstaff">
-        <div style={{width: '30%', display:'inline-block'}} onClick={() => this.milesOnClick()}>
+        <div style={{width: '30%', display:'inline-block'}} onClick={() => this.markOnClick()}>
             <div className="staffimg">
-                <img src="./images/miles.jpg"></img>
-                <div class="text">Miles Hurwitz</div>
+                <img src="./images/mark.jpg"></img>
+                <div class="text">Mark Gantz</div>
             </div>
         </div>
       </div>
