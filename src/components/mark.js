@@ -6,10 +6,16 @@ export default class MarkComponent extends Component {
         <div className="staffinfo">
             <div>
                 <h1>Mark L. Gantz</h1>
+                <h2>Areas of Practice:</h2>
+                <li>Probate and Estate Planning</li>
+                <li>Wills, Trusts and Ladybird Deeds</li>
+                <li>Divorce, Prenuptial Agreements</li>
+                <li>Real Estate</li>
+                <li>Purchase and Sale of Business</li>
                 <h2>Education:</h2>
                 <p>WAYNE STATE UNIVERSITY LAW SCHOOL, Juris Doctor, 1971</p>
                 <p>WAYNE STATE UNIVERSITY, Bachelor of Arts, 1968</p>
-                <h2>Admitted to Practice Law</h2>
+                <h2>Admitted to Practice Law:</h2>
                 <p>Michigan - 1971</p>
                 <h2>Adjunct Professor:</h2>
                 <li>OAKLAND UNIVERSITY, Rochester, Michigan - 1975 to present</li>

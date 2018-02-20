@@ -27,22 +27,20 @@ class App extends Component {
           <nav>
           <TabList>
             <Tab>Home</Tab>
-            <Tab>About</Tab>
             <Tab>Meet Our Team</Tab>
+            <Tab>Location</Tab>
             <Tab>Contact</Tab>
           </TabList>
           <div className="firmheader">
             Hurwitz & Gantz, P.C.
+            <br/>
+            <a href="tel:313-278-7030">313-278-7030</a>
           </div>
           </nav>
 
           <div className="bodycontent">
             <TabPanel>
               < HomeComponent />
-            </TabPanel>
-
-            <TabPanel>
-              < AboutComponent />
             </TabPanel>
 
             <TabPanel>
@@ -53,6 +51,10 @@ class App extends Component {
               <div className="teampage">
                 < TeamComponent />
               </div>
+            </TabPanel>
+
+            <TabPanel>
+              < AboutComponent />
             </TabPanel>
 
             <TabPanel>

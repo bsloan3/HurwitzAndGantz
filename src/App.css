@@ -3,6 +3,14 @@
 
 }
 
+h2 a {
+  color: white;
+}
+
+h2 a:hover {
+  color: lightblue;
+}
+
 body {
   font-family: Calibri, sans-serif;
   background: url(/./images/carousel/6.jpg) no-repeat center center fixed;

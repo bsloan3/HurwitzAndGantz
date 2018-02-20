@@ -7,6 +7,14 @@ export default class MilesComponent extends Component {
         <div className="staffinfo">
             <div>
                 <h1>Miles A. Hurwitz</h1>
+                <h2>Areas of Practice:</h2>
+                <li>Litigation</li>
+                <li>Legal and Medical Malpractice</li>
+                <li>Personal Injury</li>
+                <li>Motor Vehicle Accidents</li>
+                <li>Product Liability</li>
+                <li>Premises Liability</li>
+                <li>Probate and Wills</li>
                 <h2>Education:</h2>
                 <p>WAYNE STATE UNIVERSITY LAW SCHOOL, Juris Doctor, 1960</p>
                 <h2>Admitted to Practice Law:</h2>
