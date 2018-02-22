@@ -48,7 +48,7 @@ class App extends Component {
                 <h1 style={{color: 'white', marginLeft:'3%'}}>The Team</h1>
                 <h3 className="teamheader" style={{color: 'white', marginLeft:'3%'}}>Click on any of our lawyers to find out more!</h3>
               </div>
-              <div className="teampage">
+              <div>
                 < TeamComponent />
               </div>
             </TabPanel>
@@ -62,10 +62,6 @@ class App extends Component {
             </TabPanel>
           </div>
         </Tabs>
-        <div style={{color: 'white', textAlign:'center', bottom:'0'}}>
-          <p style={{margin: '0'}}>8283 N. Telegraph Road, Dearborn Heights, MI 48127</p>
-          <p style={{margin: '0'}}>Call Now: (313) 278-7030</p>
-        </div>
       </div>
     );
   }

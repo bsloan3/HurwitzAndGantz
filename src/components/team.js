@@ -22,47 +22,44 @@ export default class TeamComponent extends Component {
       <div className="mobileteam">
         <MobileTeamComponent/>
       </div>
-      <div className="fullstaff">
+
         <div style={{width: '30%', display:'inline-block'}} onClick={() => this.milesOnClick()}>
             <div className="staffimg">
                 <img src="./images/miles.jpg"></img>
                 <div class="text">Miles Hurwitz</div>
             </div>
         </div>
-        {
-          this.state.milesVisible
-            ? <MilesComponent />
-            : null
-        }
-        {
-          this.state.markVisible
-            ? <MarkComponent />
-            : null
-        }
-        {
-          this.state.vickiVisible
-            ? <VickiComponent />
-            : null
-        }
-      </div>
 
-      <div className="fullstaff">
         <div style={{width: '30%', display:'inline-block'}} onClick={() => this.markOnClick()}>
             <div className="staffimg">
                 <img src="./images/mark.jpg"></img>
                 <div class="text">Mark Gantz</div>
             </div>
         </div>
-      </div>
 
-      <div className="fullstaff">
         <div style={{width: '30%', display:'inline-block'}} onClick={() => this.vickiOnClick()}>
             <div className="staffimg">
                 <img src="./images/vicki.jpg"></img>
                 <div class="text">Victoria Sloan</div>
             </div>
         </div>
-      </div>
+        <div className="teampage">
+          {
+            this.state.milesVisible
+              ? <MilesComponent />
+              : null
+          }
+          {
+            this.state.markVisible
+              ? <MarkComponent />
+              : null
+          }
+          {
+            this.state.vickiVisible
+              ? <VickiComponent />
+              : null
+          }
+        </div>
     </div>
     );
   }

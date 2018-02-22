@@ -184,17 +184,16 @@ background-color: black;
 
 /*staff pages image overlay*/
 .staffimg {
-    position: relative;
+    /*position: relative;*/
     color: white;
     width: 30%;
-    display: block;
-    margin: 1%;
-    margin-left: 10%;
-    float: left;
+    display: inline;
+    /*float: left;*/
+    margin-left: 5%;
 }
 
 .staffimg img {
-    width: 300%;
+    width: 100%;
 }
 
 .staffimg:hover img {
@@ -211,12 +210,14 @@ background-color: black;
 
 .text {
   background-color: black;
+  border: solid grey 2px;
   color: white;
   font-size: 16px;
   /*padding: 16px 32px;*/
   text-align: center;
-  width: 300%;
+  width: 100%;
   padding: 10%;
+  margin-left: 5%;
 }
 
 /*not used but for hover text on imgs*/
@@ -236,18 +237,17 @@ background-color: black;
 /*staff details on click*/
 .staffinfo {
   color: white;
-  margin: 0 3% 0 3%;
+  margin: 3%;
   padding: 2%;
-  width: 60%;
-  float: right;
-  height: 80VH;
+  width: 90%;
+  /*height: 80VH;*/
   overflow: scroll;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
 .teampage {
-  height: 80VH;
-  overflow: scroll;
+/*  height: 80VH;
+  overflow: scroll;*/
 }
 
 /*about page*/
@@ -262,12 +262,16 @@ background-color: black;
 }
 
 /*mobile*/
-@media only screen and (max-width: 585px) {
+@media only screen and (max-width: 623px) {
     .bodycontent {
       margin-top: 160px;
       padding-top: 0px !important;
       height: 90VH;
       overflow: scroll;
+    }
+
+    .mobileteam img {
+      width: 80%;
     }
 
     .react-tabs__tab {
