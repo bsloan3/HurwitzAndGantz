@@ -31,7 +31,7 @@ export default class VickiComponent extends Component {
                     <input type="text" className="formemail" name="phonenumber" placeholder="Phone number"></input>
                     <textarea className="formmessage" name="message" placeholder="Your message"></textarea>
                     <button type="submit">Send</button>
-                    <input type="hidden" name="_next" value="//site.io/thanks.js" />
+                    <input type="hidden" name="_next" value="/" />
                 </form>
             </div>
         </div>
