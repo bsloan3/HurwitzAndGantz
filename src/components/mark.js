@@ -24,7 +24,7 @@ export default class MarkComponent extends Component {
                 <li>MICHIGAN ATTORNEY GRIEVANCE COMMISSION</li>
                 <li>AMERICAN ARBITRATION ASSOCIATION - PANEL OF ARBITRATORS</li><br/>
                 <p>Rated "Superb 10 out of 10" by Avvo.com, and "AV" (Highest Rating) by Martindale Hubbell Law Directory; "Super Lawyers Magazine"; 2011 - 2016 List of Top Lawyers in Michigan; "2012 New York Times" List of Top Attorneys in Michigan; "Hour Detroit" 2011 List of Wealth Managers Who Scored Highest in Overall Satisfaction; "dbusiness" Magazine 2009 List of "Top Lawyers"</p>
-                <img style={{width: '50%'}} src="./images/avomark.png"></img>
+                <img style={{width: '30%'}} src="./images/avomark.png"></img>
             </div>
             <div className="contactform">
                 <h4>Contact Mark</h4>
