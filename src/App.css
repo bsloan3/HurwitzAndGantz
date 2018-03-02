@@ -323,12 +323,28 @@ background-color: black;
       width: 100%;
     }
 
+    .formmessage{
+      color: black !important;
+    }
+
     .formemail {
       width: 50%;
     }
 
     .formmessage {
       width: 80%;
+    }
+
+    .firmheader a {
+      font-size: 80%;
+    }
+
+    .home h2 {
+      font-size: 200%;
+    }
+
+    .item h3 {
+      font-size: 100%;
     }
 }
 
