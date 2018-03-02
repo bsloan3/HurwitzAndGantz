@@ -26,7 +26,7 @@ export default class MarkComponent extends Component {
                 <p>Rated "Superb 10 out of 10" by Avvo.com, and "AV" (Highest Rating) by Martindale Hubbell Law Directory; "Super Lawyers Magazine"; 2011 - 2016 List of Top Lawyers in Michigan; "2012 New York Times" List of Top Attorneys in Michigan; "Hour Detroit" 2011 List of Wealth Managers Who Scored Highest in Overall Satisfaction; "dbusiness" Magazine 2009 List of "Top Lawyers"</p>
                 <img style={{width: '30%'}} src="./images/avomark.png"></img>
             </div>
-            <div className="contactform">
+            <div className="contactform personal">
                 <h4>Contact Mark</h4>
                 <form action="https://formspree.io/mgantz@hkwglaw.com" method="POST">
                     <input type="text" className="formemail" name="fullname" placeholder="Full name"></input>

@@ -358,5 +358,15 @@ background-color: black;
     .react-tabs__tab-list {
       width: 100% !important;
     }
+
+    .contactform button {
+      background-color: white !important;
+      width: 100%;
+      height: auto;
+    }
+
+    .personal {
+      display: none;
+    }
 }
 

@@ -34,7 +34,7 @@ export default class MilesComponent extends Component {
                 <li>Expert Witness - Attorney Professional Responsibility and Ethics</li>
                 <li>Case Evaluator for Mediation Tribunal Association (Wayne County Circuit Court) and Oakland County Circuit Court</li>
             </div>
-            <div className="contactform">
+            <div className="contactform personal">
                 <h4>Contact Miles</h4>
                 <form action="https://formspree.io/mhurwitz@hkwglaw.com" method="POST">
                     <input type="text" className="formemail" name="fullname" placeholder="Full name"></input>

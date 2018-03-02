@@ -23,7 +23,7 @@ export default class VickiComponent extends Component {
                 <p>New York - 1991</p>
                 <p>Michigan - 1997</p>
             </div>
-            <div className="contactform">
+            <div className="contactform personal">
                 <h4>Contact Victoria</h4>
                 <form action="https://formspree.io/vsloan@hkwglaw.com" method="POST">
                     <input type="text" className="formemail" name="fullname" placeholder="Full name"></input>
