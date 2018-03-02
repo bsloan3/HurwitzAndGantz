@@ -23,6 +23,7 @@ export default class TeamComponent extends Component {
         <MobileTeamComponent/>
       </div>
 
+      <div className="desktopteam">
         <div style={{width: '30%', display:'inline-block'}} onClick={() => this.milesOnClick()}>
             <div className="staffimg">
                 <img src="./images/miles.jpg"></img>
@@ -60,6 +61,7 @@ export default class TeamComponent extends Component {
               : null
           }
         </div>
+      </div>
     </div>
     );
   }
