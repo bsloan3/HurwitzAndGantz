@@ -7,7 +7,7 @@ export default class ContactComponent extends Component {
       <div>
         <div className="contacthead">
           <h1>Contact Hurwitz & Gantz, P.C.</h1>
-          <a href="tel:313-278-7030">313-278-7030</a>
+          <h1><a href="tel:313-278-7030">313-278-7030</a></h1>
           <h3>For email inquiries, please include</h3>
           <ul>
             <li><h4>Your name</h4></li>
