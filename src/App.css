@@ -246,7 +246,7 @@ background-color: black;
   padding: 2%;
   width: 90%;
   /*height: 80VH;*/
-  overflow: scroll;
+/*  overflow: scroll;*/
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -293,13 +293,13 @@ background-color: black;
     }
 
     .staffinfo {
-      color: white;
-      margin: 3%;
-      padding: 2%;
-      width: 80%;
-      float: left;
-      height: auto;
-      overflow: none;
+      /*width: 90%;*/
+      /*padding: 0 !important;*/
+      margin: 0 !important;
+    }
+
+    .fullstaff2 {
+      margin: 2%;
     }
 
     .teamheader {

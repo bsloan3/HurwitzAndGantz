@@ -8,21 +8,21 @@ export default class MobileTeamComponent extends Component {
     return (
     <div>
       <div className="fullstaff2">
-        <div style={{width: '100%', display:'block', margin:'3%'}}>
+        <div style={{display:'block'}}>
             <img src="./images/miles.jpg"></img>
         </div>
         <MilesComponent />
       </div>
 
       <div className="fullstaff2">
-        <div style={{width: '100%', display:'block', margin:'3%'}}>
+        <div style={{display:'block'}}>
             <img src="./images/mark.jpg"></img>
         </div>
         <MarkComponent />
       </div>
 
       <div className="fullstaff2">
-        <div style={{width: '100%', display:'block', margin:'3%'}}>
+        <div style={{display:'block'}}>
             <img src="./images/vicki.jpg"></img>
         </div>
         <VickiComponent />
