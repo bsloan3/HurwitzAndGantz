@@ -280,7 +280,8 @@ background-color: black;
     }
 
     .bodycontent {
-      margin-top: 180px;
+      margin-top: none;
+      padding-top: 180px;
       padding-top: 0px !important;
       height: 100VH;
       overflow: none;
