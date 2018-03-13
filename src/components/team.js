@@ -24,21 +24,21 @@ export default class TeamComponent extends Component {
       </div>
 
       <div className="desktopteam">
-        <div style={{width: '30%', display:'inline-block'}} onClick={() => this.milesOnClick()}>
+        <div style={{width: '190px', margin: '1%', display:'inline-block'}} onClick={() => this.milesOnClick()}>
             <div className="staffimg">
                 <img src="./images/miles.jpg"></img>
                 <div class="text">Miles Hurwitz</div>
             </div>
         </div>
 
-        <div style={{width: '30%', display:'inline-block'}} onClick={() => this.markOnClick()}>
+        <div style={{width: '200px',margin: '1%', display:'inline-block'}} onClick={() => this.markOnClick()}>
             <div className="staffimg">
                 <img src="./images/mark.jpg"></img>
                 <div class="text">Mark Gantz</div>
             </div>
         </div>
 
-        <div style={{width: '30%', display:'inline-block'}} onClick={() => this.vickiOnClick()}>
+        <div style={{width: '190px', margin: '1%', display:'inline-block'}} onClick={() => this.vickiOnClick()}>
             <div className="staffimg">
                 <img src="./images/vicki.jpg"></img>
                 <div class="text">Victoria Sloan</div>
