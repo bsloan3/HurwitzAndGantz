@@ -15,7 +15,7 @@ export default class VickiComponent extends Component {
                 <h2>Noteworthy:</h2>
                 <li>Appointed as Guardian ad litem in various legal proceedings</li>
                 <li>Former Associate at New York Law Firm, Loeb & Loeb</li>
-                <img style={{width: '30%'}} src="./images/avovicki.png"></img>
+                <img style={{width: '30%'}} src="./images/avovicki2.png"></img>
                 <h2>Education:</h2>
                 <p>UNIVERSITY OF MICHIGAN - Bachelor of Arts, 1987</p>
                 <p>NEW YORK UNIVERSITY SCHOOL OF LAW - Juris Doctor, 1990</p>
