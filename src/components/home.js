@@ -11,7 +11,7 @@ export default class HomeComponent extends Component {
         <Jumbotron className="home">
           <h1>Hurwitz & Gantz, P.C.</h1>
           <h2>Call Now: <a href="tel:313-278-7030">313-278-7030</a></h2>
-          <h4>A full service law firm rated "AV" by Martindale Hubbell Law Directory (Highest Rating in Legal Ability & Ethical Standards). We represent individuals and small business in a variety of legal matters, including</h4>
+          <h3>A full service law firm rated "AV" by Martindale Hubbell Law Directory (Highest Rating in Legal Ability & Ethical Standards). We represent individuals and small business in a variety of legal matters, including</h3>
           <h4>Hurwitz & Gantz, P.C. is committed to unwavering service of your legal needs during the COVID-19 pandemic. We have developed creative, flexible procedures to take care of clients, while keeping everyone safe and well. We are here for you.</h4>
         </Jumbotron>
         <div className="mobilecarousel">

@@ -125,7 +125,8 @@ background-color: black;
 }
 
 .home h4 {
-  border: 1px solid red;
+  border: 2px solid red;
+  padding: 2%;
 }
 
 .jumbotron {
