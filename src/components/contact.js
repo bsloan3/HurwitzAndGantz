@@ -18,7 +18,7 @@ export default class ContactComponent extends Component {
           </ul>
         </div>
         <div className="contactform">
-          <form action="https://formspree.io/ccupit@hkwglaw.com" method="POST">
+          <form action="https://formspree.io/vsloan@hkwglaw.com" method="POST">
             <input type="text" className="formemail" name="fullname" placeholder="Full name"></input>
             <input type="email" className="formemail" name="email" placeholder="Email"></input>
             <input type="text" className="formemail" name="phonenumber" placeholder="Phone number"></input>
