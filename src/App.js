@@ -51,6 +51,10 @@ class App extends Component {
               <div>
                 < TeamComponent />
               </div>
+                <div style={{position: 'static', display: 'block'}}>
+                  <img style={{width: '30%'}} src="./images/DISTINGUISHED.png"></img>
+                  <img style={{width: '30%'}} src="./images/peer.png"></img>
+              </div>
             </TabPanel>
 
             <TabPanel>
